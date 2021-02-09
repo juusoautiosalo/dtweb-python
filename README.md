@@ -2,6 +2,18 @@
 Python library for accessing the Digital Twin Web
 
 
+## Install
+
+TODO...
+
+## Usage
+
+```python
+from dtweb import client
+
+client.fetch_host_ulr('<DTID>')
+```
+
 ## Development setup
 With Ubuntu 20.04
 
