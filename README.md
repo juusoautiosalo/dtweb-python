@@ -9,9 +9,11 @@ TODO...
 ## Usage
 
 ```python
-from dtweb import client
+import dtweb
 
-client.fetch_host_ulr('<DTID>')
+dtweb.client.fetch_host_url('<DTID>')
+
+dtweb.client.fetch_dt_doc('<DTID>')
 ```
 
 ## Development setup
