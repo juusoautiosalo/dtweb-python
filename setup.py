@@ -2,10 +2,18 @@ from setuptools import find_packages, setup
 
 setup(
     name='dtweb',
-    packages=find_packages(),
     version='0.0.1',
-    description='Python library for accessing the Digital Twin Web',
     author='Juuso Autiosalo',
+    author_email="juuso.autiosalo@iki.fi",
+    description='Python library for accessing the Digital Twin Web',
+    url="https://github.com/juusoautiosalo/dtweb-python",
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
     license='MIT',
+    packages=find_packages(),
     install_requires=['requests'],
+    python_requires='>=3.8',
 )
