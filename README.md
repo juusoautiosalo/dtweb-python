@@ -1,7 +1,11 @@
 # DTWeb-python
 Python library for accessing the Digital Twin Web
 
-*Note: This (0.0.x) is an alpha phase release! Anything may change in any future release without notice.*
+
+| :exclamation: Alpha release :exclamation: |
+|:------------------------------------------|
+|*0.0.x denotes an alpha phase release. Anything may change in future releases without notice.* |
+
 
 ## Install
 
