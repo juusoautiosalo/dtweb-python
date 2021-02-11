@@ -1,10 +1,8 @@
 # DTWeb-python
 Python library for accessing the Digital Twin Web
 
-
-| :exclamation: Alpha release :exclamation: |
-|:------------------------------------------|
-|*0.0.x denotes an alpha phase release. Anything may change in future releases without notice.* |
+[![PyPI Latest Release](https://img.shields.io/pypi/v/dtweb.svg)](https://pypi.org/project/dtweb/)
+[![Package Status](https://img.shields.io/pypi/status/dtweb.svg)](https://pypi.org/project/dtweb/)
 
 
 ## Install
