@@ -10,8 +10,8 @@ Python library for accessing the Digital Twin Web
 python3 -m venv env
 source env/bin/activate
 
-# Install from TestPyPI
-pip install -i https://test.pypi.org/simple/ dtweb
+# Install with pip
+pip install dtweb
 ```
 
 > To deactivate virtual environment:
@@ -92,9 +92,10 @@ pip install twine
 twine upload --repository testpypi dist/*
 ```
 
-> To deactivate virtual environment:
-> ```sh
-> deactivate
-> ```
+### Install from TestPyPI
+
+```sh
+pip install -i https://test.pypi.org/simple/ dtweb
+```
 
 </details>
