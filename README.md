@@ -49,6 +49,19 @@ dtweb.client.fetch_host_url('<DTID>')
 dtweb.client.fetch_dt_doc('<DTID>')
 ```
 
+### Usage example:
+```python
+import dtweb
+
+# Fetch and pring hosting URL from DTID of Ilmatar crane
+crane_hosturl = dtweb.client.fetch_host_url('http://d-t.fi/konecranes-K16052')
+print(crane_hosturl)
+
+# Fetch and pring DT document from DTID of Ilmatar crane
+crane_doc = dtweb.client.fetch_dt_doc('http://d-t.fi/konecranes-K16052')
+print(crane_doc)
+```
+
 ## Development setup
 With Ubuntu 20.04
 
